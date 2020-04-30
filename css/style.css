@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato";
+
+}
+
+html,body{
+    height:auto ;
+}
+
+@font-face{
+    font-family: "lato";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+.clear{
+    clear: both;
+}
+header{
+    background: #3B5998;
+    padding: 8px 0;
+}
+
+header .center .logo{
+    float: left;
+    padding-top: 15px;
+}
+header .center .logo >h2{
+    font-size: 35px;
+    color:white;
+    font-family: tahoma;
+}
+
+.form-login{
+    float:right;
+}
+.form-login .form-element{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.form-login .form-element p{
+    color:white;
+    font-size: 13px;
+}
+.form-element-link{
+    margin-left: 176px;
+    
+}
+.form-login  .form-element-link a{
+    color:#9CB4D8;
+    font-size: 13px;
+    text-decoration: none;
+}
+.form-login  .form-element-link a:hover{
+    text-decoration: underline;
+}
+
+.form-login .form-element input[type=email],
+.form-login .form-element input[type=password]{
+    margin: 5px 0;
+    outline: none;
+    padding-left: 6px;
+
+}
+
+.form-login .form-element input[type=email]:focus{
+    background: lightyellow;
+}
+.form-login .form-element input[type=password]:focus{
+    background-color:lightyellow;
+}
+
+.form-login .form-element input[type=submit]{
+    cursor: pointer;
+    color: white;
+    background: #4267B2;
+    padding:5px 5px;
+    border: 1px solid #4267B2;
+    font-size: 13px;
+}
+
+.form-login .form-element input[type=submit]:hover{
+    background-color: rgb(5, 42, 116);
+}
+
+section.main{
+    background: linear-gradient(white, #d3d8e8);
+    padding: 40px 0;
+}
+section.main .img-pessoas{
+    float: left;
+    width: 46%;
+}
+.img-pessoas>img{
+    max-width: 100%;
+    height: 100%;
+}
+.img-pessoas .text-pessoas{
+    max-width: 100%;
+    float: left;
+    margin: 5px 0;
+
+}
+.img-pessoas .text-pessoas h2{
+    color: #0E385F;
+    font-size: 20px;
+}
+
+
+.abrir-conta{
+    float: right;
+    width: 40%;
+}
+
+.abrir-conta h2{
+    color: #333;
+    font-size:38px;
+}
+
+.abrir-conta h3{
+    color: #333;
+    font-size:19px;
+    font-weight: normal;
+    margin-top: 7px;
+}
+
+.criar-conta{
+    margin-top: 3px;
+    float: inherit;
+    width: 100%;
+
+  
+}
+
+.text1{
+    width: 100%;
+    float: left;
+    padding: 0 8px;
+}
+
+.criar-conta .w50{
+    width: 50%;
+    float:left;
+    padding:0 8px;
+    
+}
+.criar-conta input[type=text]{
+    width: 100%;
+    padding: 6px 0px;
+
+}
+
+.criar-conta .w100{
+    width: 100%;
+    padding:0 8px;
+}
+
+.w100 input[type=email],.w100 input[type=password]{
+    width: 100%;
+    padding:8px 8px;
+
+}
+
+
+.abrir-conta .criar-conta input{
+    margin-top: 14px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border:1px solid #bdc7d8;
+    font-size: 18px;
+    outline: none;
+
+}
+
+
+.w100-2{
+    padding:0 15px;
+    width: 40%;
+    float:right;
+    clear: both;
+}
+.w100-2 h2{
+    font-size: 18px;
+    color: #90949C;
+    margin: 5px 0;
+}
+.w100-2 .data{
+    float: left;
+    height: 27px;
+    width: 75px;
+    font-size: 14px;
+    padding:  1%;
+    outline: none;
+}
+
+
+.w100-3,.w100-4{
+    width: 40%;
+    float: right;
+    clear:both;
+    padding: 0 12px;
+    max-width: 100%;
+}
+.w100-3 .opcao{
+    display: inline-block;
+    padding-right: 14px;
+   
+}
+
+.w100-3 .opcao label{
+    font-size: 20px;
+    color: black;
+}
+.w100-3 p{
+    max-width: 78%;
+    color: #90949C;
+    margin: 15px 0;
+    font-size: 13px;
+}
+.w100-3 a{
+    text-decoration: none;
+    color:#385898;
+}
+
+.w100-4 .click{
+    float: left;
+    width: 50%;
+    margin-top: 4px;
+    
+}
+.w100-4 .click input[type=submit]{
+    padding:6px 44px;
+    background-color: #5D974A;
+    border: none;
+    cursor: pointer;
+    color:white;
+    font-size: 17px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.w100-4 .click input[type=submit]:hover{
+    background: rgb(23, 49, 14);
+}
+.w100-4 .pos-botao{
+    float: left;
+    max-width: 100%;;
+    margin-top: 37px;
+}
+.w100-4 .pos-botao p{
+    display: inline-block;
+    color:#90949C;
+    font-weight: normal;
+    font-size: 15px;
+
+}
+.w100-4 .pos-botao p>a{
+    text-decoration: none;
+    color: #385898;
+  
+}
+
+
+.w100-4  .pos-botao p a> {
+    color: #3875ba;
+
+}
+
+.center .liguas{
+    width: 100%;
+    border-bottom: 2px solid #dddfe2;;
+    margin-top: 43px;
+}
+
+.center .liguas ul{
+    width: 100%;
+}
+.center .liguas ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+.center .liguas ul li a{
+    text-decoration: none;
+    color: #385898;
+   
+    
+  
+}
+.center .liguas-2,ul{
+    width: 100%;
+}
+
+.center .liguas-2 ul li{
+    display: inline-block;
+    margin-top: 7px;
+    margin-right: 12px;
+
+}
+
+.center .liguas-2 ul li a{
+    color: #385898;
+    text-decoration: none;
+    
+}
+
+footer{
+    width: 100%;
+    float: left;
+}
+
+
+
+
+/* começando com media screen */
+
+@media screen and (max-width:768px){
+    .logo{
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin:17px 0 ;
+    }
+
+    .form-login {
+        float: none;
+        text-align: center;
+    }
+    .form-login .form-element{
+        display: block;
+        float: none;
+    }
+    .form-element-link{
+        margin:8px 0;
+    }
+
+    .form-login .form-element input[type=email],
+    .form-login .form-element input[type=password]{
+    margin: 5px 0;
+    outline: none;
+    padding-left: 6px;
+    width: 100%;
+    max-width: 500px;
+
+}
+section.main .img-pessoas{
+  display: none;
+}
+
+
+.abrir-conta{
+    width: 100%;
+    float: none;
+    text-align: center;
+    
+   
+    
+}
+
+
+.w100-2,.w100-3,.w100-4{
+    float: none;
+    width: 100%;
+    height:  auto;
+    padding: 0 23px;
+    
+}
+
+.w100-2 .data {
+    float: none;
+    height: 34px;
+    width: 75px;
+    font-size: 14px;
+    padding: 1%;
+    outline: none;
+}
+
+.liguas,.liguas-2,.footer>p{
+    padding: 0 28px;
+    font-size: 14px;
+}
+    
+}
